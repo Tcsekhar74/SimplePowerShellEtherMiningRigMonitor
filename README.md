@@ -1,6 +1,8 @@
 # SimplePowerShellEtherMiningRigMonitor
 Simple PowerShell Ether Mining Rig Monitor - uses PowerShell, SQL Express and Grafana
 
+I have never worked on PowerShell. This is my first time writing PS script. If there are better ways of doing something, please share. 
+
 Here is a very simple Ether Mining Rig Monitoring and Reporting application. Wrote everything in less than a day and does everything I needed for my rig. I thought this might help someone looking for a very simple application to automatically restart "stuck mining nodes" and report on 
 
 Energy usage
@@ -40,3 +42,5 @@ I didn't try this on any linux instance but it should work just fine on a linux 
 You will need to install LOLMINER - the most reliable mining software out there (but has less things you can control - to me it was better than the Claymore Dual miner I was using).
 
 You will also need to configure the start.sh and also add a reboot script inside the Linux server.  
+
+Finally, schedule the PowerShell script to run every minute or as frequently as you would like. And enjoy!
